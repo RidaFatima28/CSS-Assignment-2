@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.color{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(88, 3, 20);
+}
+.main{
+    width: 300px;
+    height: 300px;
+    background-color: brown;
+    margin-left: 300px;
+    margin-top: 150px;
+    position: absolute; 
+    z-index: 1;
+}
+img{
+    width: 300px;
+    height: 300px;
+    padding-top: 10px;
+}
+.icon{
+    padding-top: 20px;
+    font-size: 25px;
+}
+.heart{
+    padding-left: 220px;
+}
+.heart:hover{
+    color: pink;
+    cursor: pointer;
+}
+.share:hover{
+    color: pink;
+    cursor: pointer;
+}
+.content{
+    width: 500px;
+    height: 500px;
+    background-color: blanchedalmond;
+    margin-left: 450px;
+    margin-top: 80px;
+    position: absolute; 
+    text-align: center;
+    padding-top: 15px;
+}
+.rs{
+    padding-top: 50px;
+    font-size: 20px;
+    padding-right: 50px;
+    color:red;
+    display: inline-block;
+}
+.num{
+    font-size: 45px;
+    color: red;
+    letter-spacing: 3px;
+}
+p{
+    padding-top: 15px;
+}
+.str{
+    width: 100px;
+    height: 110px;
+}
+.berry{
+     width: 100px;
+    height: 110px;
+}
+.Rberry{
+     width: 100px;
+    height: 110px;
+}
+.fruit{
+    padding-left: 90px;
+    padding-top: 20px;
+}
+.str:hover{
+    border: 3px solid pink;
+    padding-top: 0;
+    cursor: pointer;
+}
+.berry:hover{
+    padding-top: 0;
+    border: 3px solid pink;
+    cursor: pointer;
+}
+.Rberry:hover{
+    border: 3px solid pink;
+    padding-top: 0;
+    cursor: pointer;
+}
+ul{
+    padding-left: 200px;
+    text-align: left;
+    padding-top: 5px;
+}
+button{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(231, 24, 93);
+    border-radius: 8px;
+}
+button:hover{
+    cursor: pointer;
+    border: 5px solid rgb(138, 2, 29);
+    color: whitesmoke;
+}
+@media(max-width:955px) {
+    body{
+        width: 100vw;
+        height: 100vh;
+        background-color:  rgb(88, 3, 20); 
+    }
+   img{
+    width: 350px;
+    height: 300px;
+      width: 400px;
+   }
+    .main{
+        position: static;
+        margin: auto;
+        margin-top: 30px;
+        width: 400px;
+        height: 300px;
+        display: inline-block;
+    }
+    .heart{
+        padding-left: 300px;
+    }
+    .share{
+        padding-left: 7px;
+    }
+  .content{
+    position: static;
+    margin-top: 30px;
+    width: 400px;
+    height: 470px;
+    margin: auto;
+    display: inline-block;
+  }
+  .rs{
+    padding-top: 15px;
+  }
+  .fruit{
+    padding-left: 20px;
+  }
+  ul{
+    padding-left: 150px;
+    padding-top: 10px;
+  }
+
+
+  
+
+  }
